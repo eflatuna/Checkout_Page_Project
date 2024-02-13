@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+
+	<body>
+		<header>
+			<div class="header-container">
+				<img class="logo" src="./assets/logo/logo-layer.png" alt="" />
+				<nav>
+					<ul>
+						<li><a href="#">Watches</a></li>
+						<li><a href="#">Eyewear</a></li>
+						<li><a href="#">Accessories</a></li>
+						<li><a href="#">Bags</a></li>
+					</ul>
+				</nav>
+				<div class="login-area">
+					<!-- <img src="./assets/icons/search.png" alt=""> -->
+					<div class="login">
+						<img src="./assets/icons/user.png" alt="" />
+						<p>Log In</p>
+					</div>
+					<img src="./assets/icons/cart.png" alt="" />
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<div id="products-preview">
+				<div id="product-painel">
+					<div class="products">
+						<div class="product">
+							<img
+								src="./assets/packshot-front_numero-un-nano-trio-camel.webp"
+								alt=""
+							/>
+							<div class="product-info">
+								<h2>Edition Trio Camel Leder</h2>
+								<div class="product-price">
+									<p>
+										<strong>25.98</strong> <span>€</span>
+										<span class="line-through"
+											><del>34.99</del><span>€</span>
+										</span>
+									</p>
+								</div>
+								<div class="quantity-controller">
+									<i class="fa-solid fa-minus"></i>
+									<p class="quantity">1</p>
+									<i class="fa-solid fa-plus"></i>
+								</div>
+								<div class="product-removal">
+									<button class="remove-product">
+										Remove
+									</button>
+								</div>
+								<div class="product-line-price">
+									<span>25.98</span><span>€</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="product">
+							<img
+								src="./assets/packshot-front_numero-sept-noir-grain.webp"
+								alt=""
+							/>
+							<div class="product-info">
+								<h2>Edition Schwarz Leder</h2>
+								<div class="product-price">
+									<p>
+										<strong>45.99</strong> <span>€</span>
+										<span class="line-through"></span>
+										<del>54.99</del><span>€</span>
+									</p>
+								</div>
+								<div class="quantity-controller">
+									<i class="fa-solid fa-minus"></i>
+									<p class="quantity">1</p>
+									<i class="fa-solid fa-plus"></i>
+								</div>
+								<div class="product-removal">
+									<button class="remove-product">
+										Remove
+									</button>
+								</div>
+								<div class="product-line-price">
+									<span>45.99</span><span>€</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="product">
+							<img
+								src="./assets/packshot-front_nodde-craie.webp"
+								alt=""
+							/>
+							<div class="product-info">
+								<h2>Edition Kreide Glattes Leder</h2>
+								<div class="product-price">
+									<p>
+										<strong>35.99</strong> <span>€</span>
+										<span class="line-through"></span>
+										<del>54.99</del><span>€</span>
+									</p>
+								</div>
+								<div class="quantity-controller">
+									<i class="fa-solid fa-minus"></i>
+									<p class="quantity">1</p>
+									<i class="fa-solid fa-plus"></i>
+								</div>
+								<div class="product-removal">
+									<button class="remove-product">
+										Remove
+									</button>
+								</div>
+								<div class="product-line-price">
+									<span>35.99</span><span>€</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="buy-detail" id="cart-subtotal">
+						<p>Subtotal</p>
+						<p><span>0</span><span>€</span></p>
+					</div>
+					<div class="buy-detail" id="cart-tax">
+						<p>Tax(%18)</p>
+						<p><span>0</span><span>€</span></p>
+					</div>
+					<div class="buy-detail" id="cart-shipping">
+						<p>Shipping</p>
+						<p><span>0</span><span>€</span></p>
+					</div>
+					<div class="buy-detail" id="cart-total">
+						<p>Total</p>
+						<p><span>0</span><span>€</span></p>
+					</div>
+					<button class="pay">Pay Now</button>
+				</div>
+			</div>
+			<div class="bg-picture"></div>
+		</main>
+
+		<footer>
+			<div class="footerContainer">
+				<div class="socialIcons">
+					<a href=""><i class="fa-brands fa-facebook"></i></a>
+					<a href=""><i class="fa-brands fa-instagram"></i></a>
+					<a href=""><i class="fa-brands fa-twitter"></i></a>
+					<a href=""><i class="fa-brands fa-google-plus"></i></a>
+					<a href=""><i class="fa-brands fa-youtube"></i></a>
+				</div>
+
+				<div class="footerNav">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Our Team</a></li>
+					</ul>
+				</div>
+				<div class="footerBottom">
+					<p>Copyright &copy;2024; Designed by Efla</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="app.js"></script>
+	</body>
+</html>
